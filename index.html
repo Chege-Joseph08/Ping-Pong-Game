@@ -2,9 +2,58 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <title>Ping-Pong-Game</title>
   </head>
   <body>
-
+    <div class="jumbotron">
+      <h1 class="text-ceenter">PING PONG GAME</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="sidebar">
+            <h4>About Ping-Pong Game</h4>
+            <h5>Created By</h5>
+            <p>Joseph Chege</p>
+            <h5>Github url :</h5>
+            <a href=""></a>
+            <div class="sidebar-2">
+              <img src="img/" alt="">
+              <img src="img/" alt="">
+              <p>I like playing PING-pong Game. Its fun</p>
+            </div>
+          </div>
+        </div>
+    <div class="col-md-7">
+      <div class="game">
+        <h2>Play The Game Here</h2>
+        <br>
+        <h4>Note The Rules:</h4>
+        </br>
+        <p><b>PING-PONG will count up to your number from 1 with the following exceptions:</b></p>
+        <ol>
+          <li>Numbers divisible by 3 are replaced with "ping"</li>
+          <li>Numbers divisible by 5 are replaced with "pong"</li>
+          <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+        </ol>
+        <br>
+        <form class="form-inline" id="formInput">
+          <div class="form-group">
+            <label for="Number Entry">Please Enter a Number Here:</label></br>
+            <input type="number" class="form-control" id="numberEntry">
+          </div>
+          <div class="col-md-7">
+            <button type="submit" class="btn-primary">Click To Play</button>
+          </div>
+        </form>
+      </div>
+    </div>
+      </div>
+    </div>
   </body>
 </html>
