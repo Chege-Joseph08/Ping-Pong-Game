@@ -1,0 +1,72 @@
+.jumbotron {
+  background-image: url("../img/ping1.jpg");
+  color: #ffffff;
+  padding: 60px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 80px;
+}
+
+.sidebar {
+  background-color: #4d4dff;
+  padding: 50px;
+  padding-top: 30px;
+  margin: 30px;
+  box-shadow: 10px 10px #000;
+}
+
+.sidebar a {
+  color: #8F1C04;
+}
+
+.sidebar h4 {
+  color: #ffffff;
+}
+
+.sidebar h5 {
+  color: #ffffff;
+}
+.sidebar p {
+  color: #ffffff;
+}
+
+.container {
+  margin-left: 0px;
+  margin-top: 0px;
+
+}
+
+.game {
+  margin: 60px;
+  margin-left: 0px;
+  box-shadow: 10px 10px #000;
+  background-color: #1aff1a;
+  padding: 30px;
+}
+
+.game h4 {
+  color: #8F1C04;
+}
+
+.game h2 {
+  color: #08087A;
+}
+
+.btn {
+  font-style: italic;
+  margin-top: 25px;
+}
+
+.panel-body {
+  background-color: #4d4dff;
+  padding: 50px;
+  padding-top: 30px;
+  margin: 30px;
+  box-shadow: 10px 10px #000;
+}
+body {
+  background-image: url("../img/speckle.jpg");
+  background-repeat: repeat;
+}
